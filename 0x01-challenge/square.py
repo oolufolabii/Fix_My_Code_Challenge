@@ -9,6 +9,7 @@ class square():
         """Init a new square"""
         self.width = 0
         self.height = 0
+
         for key, value in kwargs.items():
             setattr(self, key, value)
 
